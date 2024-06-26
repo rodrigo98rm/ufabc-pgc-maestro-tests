@@ -4,8 +4,9 @@ env:
   NOTE_TITLE: "Nota a ser fixada"
   NOTE_DESCRIPTION: "Descricao da nota a ser fixada"
 ---
+- launchApp
 - runFlow:
-    file: ../full-flows/createNote.base.yaml
+    file: ../../baseFlows/createNote.base.yaml
     env:
       NOTE_TITLE: ${NOTE_TITLE}
       NOTE_DESCRIPTION: ${NOTE_DESCRIPTION}

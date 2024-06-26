@@ -1,8 +1,9 @@
 appId: com.pgcapp
 name: Create Note
 ---
+- launchApp
 - runFlow:
-      file: ./createNote.base.yaml
+      file: ../../baseFlows/createNote.base.yaml
       env:
           NOTE_TITLE: "Nota teste 1"
           NOTE_DESCRIPTION: "Descricao teste 1"

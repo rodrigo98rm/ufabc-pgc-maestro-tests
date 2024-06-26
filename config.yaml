@@ -1,5 +1,7 @@
 flows:
-  - "**"
+  - "flows/**"
 executionOrder:
   flowsOrder:
-    - emptyState
+    - Login fail
+    - Login success
+    - List empty state
