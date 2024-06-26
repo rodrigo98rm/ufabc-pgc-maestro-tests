@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites>
-  <testsuite name="Test Suite" device="emulator-5554" tests="1" failures="0" time="30">
+  <testsuite name="Test Suite" device="emulator-5554" tests="4" failures="0" time="85">
+    <testcase id="List empty" name="List empty" classname="List empty" time="18" status="SUCCESS"/>
+    <testcase id="Login success" name="Login success" classname="Login success" time="17" status="SUCCESS"/>
     <testcase id="Login" name="Login" classname="Login" time="30" status="SUCCESS"/>
+    <testcase id="Login fail" name="Login fail" classname="Login fail" time="20" status="SUCCESS"/>
   </testsuite>
 </testsuites>

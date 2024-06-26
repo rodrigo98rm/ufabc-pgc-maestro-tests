@@ -1,0 +1,5 @@
+appId: com.pgcapp
+name: List empty
+---
+- runFlow: ../login/login-success.yaml
+- assertVisible: "Nenhuma nota cadastrada"
