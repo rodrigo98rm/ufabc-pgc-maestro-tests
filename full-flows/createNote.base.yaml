@@ -1,0 +1,17 @@
+appId: com.pgcapp
+name: Create Note
+---
+- runFlow: ../login/login-success.yaml
+- tapOn:
+    id: "new-note-button"
+- tapOn:
+    id: "title-input"
+- inputText: ${NOTE_TITLE}
+- tapOn:
+    id: "description-input"
+- inputText: ${NOTE_DESCRIPTION}
+- tapOn:
+    id: "save-note-button"
+- assertVisible:
+    id: "new-note-button"
+- assertVisible: ${NOTE_TITLE}
