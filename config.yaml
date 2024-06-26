@@ -1,0 +1,5 @@
+flows:
+  - "**"
+executionOrder:
+  flowsOrder:
+    - emptyState
