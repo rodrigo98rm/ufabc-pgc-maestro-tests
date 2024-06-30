@@ -1,0 +1,25 @@
+appId: com.pgcapp
+name: Edit Note
+env:
+    NOTE_TITLE: "Nota a ser editada"
+    NOTE_DESCRIPTION: "Descricao da nota a ser editada"
+---
+- launchApp
+- runFlow:
+      file: ../../baseFlows/createNote.base.yaml
+      env:
+          NOTE_TITLE: ${NOTE_TITLE}
+          NOTE_DESCRIPTION: ${NOTE_DESCRIPTION}
+- tapOn: ${NOTE_TITLE}
+- tapOn:
+      id: "title-input"
+- eraseText
+- inputText: "Nota editada"
+- tapOn:
+      id: "description-input"
+- eraseText
+- inputText: "Descricao da nota editada"
+- tapOn:
+      id: "save-note-button"
+- assertVisible: "Nota editada"
+- assertVisible: "Descricao da nota editada"

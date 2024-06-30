@@ -2,15 +2,16 @@ appId: com.pgcapp
 name: Create Note
 ---
 - tapOn:
-      id: "new-note-button"
+        id: "new-note-button"
 - tapOn:
-      id: "title-input"
+        id: "title-input"
 - inputText: ${NOTE_TITLE}
 - tapOn:
-      id: "description-input"
+        id: "description-input"
 - inputText: ${NOTE_DESCRIPTION}
 - tapOn:
-      id: "save-note-button"
+        id: "save-note-button"
 - assertVisible:
-      id: "new-note-button"
+        id: "new-note-button"
 - assertVisible: ${NOTE_TITLE}
+- assertVisible: ${NOTE_DESCRIPTION}

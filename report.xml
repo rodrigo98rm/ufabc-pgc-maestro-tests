@@ -1,14 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites>
-  <testsuite name="Test Suite" device="emulator-5554" tests="7" failures="1" time="173">
-    <testcase id="Login fail" name="Login fail" classname="Login fail" time="25" status="SUCCESS"/>
-    <testcase id="Login success" name="Login success" classname="Login success" time="17" status="SUCCESS"/>
-    <testcase id="List empty state" name="List empty state" classname="List empty state" time="18" status="ERROR">
-      <failure>Assertion is false: "Nenhuma nota cadastrada" is visible</failure>
-    </testcase>
-    <testcase id="Create Note" name="Create Note" classname="Create Note" time="22" status="SUCCESS"/>
-    <testcase id="Create Note - Validation" name="Create Note - Validation" classname="Create Note - Validation" time="24" status="SUCCESS"/>
-    <testcase id="Delete Note" name="Delete Note" classname="Delete Note" time="36" status="SUCCESS"/>
-    <testcase id="Pin Note" name="Pin Note" classname="Pin Note" time="31" status="SUCCESS"/>
+  <testsuite name="Test Suite" device="emulator-5554" tests="7" failures="0" time="135">
+    <testcase id="Login fail" name="Login fail" classname="Login fail" time="18" status="SUCCESS"/>
+    <testcase id="Login success" name="Login success" classname="Login success" time="15" status="SUCCESS"/>
+    <testcase id="List empty state" name="List empty state" classname="List empty state" time="3" status="SUCCESS"/>
+    <testcase id="Pin Note" name="Pin Note" classname="Pin Note" time="29" status="SUCCESS"/>
+    <testcase id="Create Note - Validation" name="Create Note - Validation" classname="Create Note - Validation" time="21" status="SUCCESS"/>
+    <testcase id="Create Note" name="Create Note" classname="Create Note" time="20" status="SUCCESS"/>
+    <testcase id="Delete Note" name="Delete Note" classname="Delete Note" time="29" status="SUCCESS"/>
   </testsuite>
 </testsuites>
