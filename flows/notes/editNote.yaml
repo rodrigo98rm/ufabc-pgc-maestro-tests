@@ -21,5 +21,7 @@ env:
 - inputText: "Descricao da nota editada"
 - tapOn:
       id: "save-note-button"
+- assertVisible:
+    id: "new-note-button"
 - assertVisible: "Nota editada"
 - assertVisible: "Descricao da nota editada"
