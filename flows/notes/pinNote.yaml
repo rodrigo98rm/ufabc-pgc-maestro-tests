@@ -10,6 +10,8 @@ env:
     env:
       NOTE_TITLE: ${NOTE_TITLE}
       NOTE_DESCRIPTION: ${NOTE_DESCRIPTION}
+- assertVisible:
+    id: "list-item-pinned:false-${NOTE_TITLE}"
 - tapOn: ${NOTE_TITLE}
 - tapOn:
     id: "pin-note-switch"
