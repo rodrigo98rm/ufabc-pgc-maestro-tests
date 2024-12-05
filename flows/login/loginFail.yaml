@@ -1,16 +1,16 @@
 appId: com.pgcapp
-name: Login fail
+name: 1 - Login fail
 ---
 - launchApp
 - tapOn:
-    id: "email-input"
+      id: "email-input"
 - inputText: "rodrigo@teste.com"
 - tapOn:
-    id: "password-input"
+      id: "password-input"
 - inputText: 12345
 - tapOn:
-    id: "login-button"
+      id: "login-button"
 - assertVisible: "Login Inválido"
 - tapOn:
-    text: "OK"
+      text: "OK"
 - assertVisible: "LOGIN"

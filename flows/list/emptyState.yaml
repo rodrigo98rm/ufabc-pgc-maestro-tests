@@ -1,5 +1,5 @@
 appId: com.pgcapp
-name: List empty state
+name: 3 - List empty state
 ---
 - launchApp
 - assertVisible: "Nenhuma nota cadastrada"

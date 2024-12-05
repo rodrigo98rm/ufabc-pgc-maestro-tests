@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites>
-  <testsuite name="Test Suite" device="emulator-5554" tests="7" failures="0" time="135">
-    <testcase id="Login fail" name="Login fail" classname="Login fail" time="18" status="SUCCESS"/>
-    <testcase id="Login success" name="Login success" classname="Login success" time="15" status="SUCCESS"/>
-    <testcase id="List empty state" name="List empty state" classname="List empty state" time="3" status="SUCCESS"/>
-    <testcase id="Pin Note" name="Pin Note" classname="Pin Note" time="29" status="SUCCESS"/>
-    <testcase id="Create Note - Validation" name="Create Note - Validation" classname="Create Note - Validation" time="21" status="SUCCESS"/>
-    <testcase id="Create Note" name="Create Note" classname="Create Note" time="20" status="SUCCESS"/>
-    <testcase id="Delete Note" name="Delete Note" classname="Delete Note" time="29" status="SUCCESS"/>
+  <testsuite name="Test Suite" device="ZF524HGXJM" tests="8" failures="0" time="246">
+    <testcase id="1 - Login fail" name="1 - Login fail" classname="1 - Login fail" time="25" status="SUCCESS"/>
+    <testcase id="2 - Login success" name="2 - Login success" classname="2 - Login success" time="21" status="SUCCESS"/>
+    <testcase id="3 - List empty state" name="3 - List empty state" classname="3 - List empty state" time="5" status="SUCCESS"/>
+    <testcase id="4 - Create Note - Validation" name="4 - Create Note - Validation" classname="4 - Create Note - Validation" time="31" status="SUCCESS"/>
+    <testcase id="5 - Create Note" name="5 - Create Note" classname="5 - Create Note" time="28" status="SUCCESS"/>
+    <testcase id="6 - Delete Note" name="6 - Delete Note" classname="6 - Delete Note" time="40" status="SUCCESS"/>
+    <testcase id="7 - Edit Note" name="7 - Edit Note" classname="7 - Edit Note" time="57" status="SUCCESS"/>
+    <testcase id="8 - Pin Note" name="8 - Pin Note" classname="8 - Pin Note" time="39" status="SUCCESS"/>
   </testsuite>
 </testsuites>

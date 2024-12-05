@@ -1,5 +1,5 @@
 appId: com.pgcapp
-name: Delete Note
+name: 6 - Delete Note
 env:
   NOTE_TITLE: "Nota a ser apagada"
   NOTE_DESCRIPTION: "Descricao da nota a ser apagada"

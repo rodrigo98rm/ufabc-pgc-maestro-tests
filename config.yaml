@@ -2,6 +2,11 @@ flows:
   - "flows/**"
 executionOrder:
   flowsOrder:
-    - Login fail
-    - Login success
-    - List empty state
+    - 1 - Login fail
+    - 2 - Login success
+    - 3 - List empty state
+    - 4 - Create Note - Validation
+    - 5 - Create Note
+    - 6 - Delete Note
+    - 7 - Edit Note
+    - 8 - Pin Note

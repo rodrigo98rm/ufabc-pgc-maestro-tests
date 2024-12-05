@@ -1,20 +1,20 @@
 appId: com.pgcapp
-name: Create Note - Validation
+name: 4 - Create Note - Validation
 ---
 - launchApp
 - tapOn:
-        id: "new-note-button"
+          id: "new-note-button"
 - tapOn:
-        id: "save-note-button"
+          id: "save-note-button"
 - assertVisible: "Preencha o título"
 - tapOn:
-        text: "OK"
+          text: "OK"
 - tapOn:
-        id: "title-input"
+          id: "title-input"
 - inputText: "Nota teste 1"
 - tapOn:
-        id: "save-note-button"
+          id: "save-note-button"
 - assertVisible: "Preencha a descrição"
 - tapOn:
-        text: "OK"
+          text: "OK"
 - assertNotVisible: "Erro"

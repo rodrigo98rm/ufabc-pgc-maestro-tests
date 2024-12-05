@@ -1,22 +1,22 @@
 appId: com.pgcapp
-name: Pin Note
+name: 8 - Pin Note
 env:
-  NOTE_TITLE: "Nota a ser fixada"
-  NOTE_DESCRIPTION: "Descricao da nota a ser fixada"
+    NOTE_TITLE: "Nota a ser fixada"
+    NOTE_DESCRIPTION: "Descricao da nota a ser fixada"
 ---
 - launchApp
 - runFlow:
-    file: ../../baseFlows/createNote.base.yaml
-    env:
-      NOTE_TITLE: ${NOTE_TITLE}
-      NOTE_DESCRIPTION: ${NOTE_DESCRIPTION}
+      file: ../../baseFlows/createNote.base.yaml
+      env:
+          NOTE_TITLE: ${NOTE_TITLE}
+          NOTE_DESCRIPTION: ${NOTE_DESCRIPTION}
 - assertVisible:
-    id: "list-item-pinned:false-${NOTE_TITLE}"
+      id: "list-item-pinned:false-${NOTE_TITLE}"
 - tapOn: ${NOTE_TITLE}
 - tapOn:
-    id: "pin-note-switch"
+      id: "pin-note-switch"
 - tapOn: "SALVAR"
 - assertVisible:
-    id: "new-note-button"
+      id: "new-note-button"
 - assertVisible:
-    id: "list-item-pinned:true-${NOTE_TITLE}"
+      id: "list-item-pinned:true-${NOTE_TITLE}"

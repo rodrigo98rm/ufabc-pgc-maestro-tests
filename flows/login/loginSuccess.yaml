@@ -1,13 +1,13 @@
 appId: com.pgcapp
-name: Login success
+name: 2 - Login success
 ---
 - launchApp
 - tapOn:
-    id: "email-input"
+      id: "email-input"
 - inputText: "rodrigo@teste.com"
 - tapOn:
-    id: "password-input"
+      id: "password-input"
 - inputText: 123456
 - tapOn:
-    id: "login-button"
+      id: "login-button"
 - assertVisible: "Notas"
